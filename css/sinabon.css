@@ -1,0 +1,552 @@
+@font-face {
+font-family: 'avenir-m';
+src: url('fonts/AvenirNextCyr-Medium.ttf');
+}
+
+@font-face {
+font-family: 'avenir-r';
+src: url('fonts/AvenirNextCyr-Regular.ttf');
+}
+@font-face {
+font-family: 'avenir-d';
+src: url('fonts/AvenirNextCyr-Demi.ttf');
+}
+body{
+  font-size: 14px;
+  font-family: 'avenir-r';
+}
+p{
+  font-size: 14px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-brand{
+    float: none;
+}
+.navbar-toggle{
+  padding: 11px 11px;
+  margin-right: 20px;
+}
+                                                       /*0-0-0-00-=0-0-00-00-0-0-0--0-000-- menu boshlandi--0-0-0--00-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0 */
+.main_menu{
+width: 100%;
+padding: 0 30px;
+font-size: 16px;
+position: absolute;
+overflow: hidden;
+z-index: 9999;
+}
+.logotip a{
+    font-size: 25px;
+}
+.logotip a span:hover{
+    color: #a2ca28;
+}
+.logotip a span{
+    border-bottom: 1px solid #a2ca28;
+    margin: 0 10px;
+    color: #fff;
+}
+.logotip img{
+    display: inline-block;
+}
+.navbar{
+  margin-top: 20px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #a2ca28;
+}
+                                             /* -0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-slider bosshlandi-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0- */
+.sliderIn .text{
+  bottom: 90px;
+  position: absolute;
+  color: #fff;
+  left: 90px;
+}
+.owl-carousel{
+  position: relative;
+}
+.owl-next{
+    width: 25px;
+    height: 62px;
+    right: 5%;
+    position: absolute;
+    top:50%;
+    background-image: url(../img/right_arrow.png);
+}
+.owl-prev{
+  left: 5%;
+  top: 50%;
+  width: 25px;
+  height: 62px;
+  position: absolute;
+background-image: url(../img/left_arrow.png);
+}
+                                           /*-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0- content1 boshlandi-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0- */
+.content1{
+  background-color: #a2ca28;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.text h2{
+font-size: 20px;
+font-weight: 500;
+}
+.text p {
+  font-size: 15px;
+}
+.content1 .container1 {
+  color: #fff;
+}
+.content1 .container1 a{
+  text-decoration: none;
+  color: #fff;
+}
+.content1 .container1 .text:hover{
+  color: #fd634e;
+}
+
+                                  /*-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0- content2 boshlandi-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0- */
+.content2{
+  background-color: #a2ca28;
+}
+/* .container2{
+padding-left: 40px;
+padding-top: 10px;
+
+} */
+.left_block{
+  padding-left: 0 ;
+  height: 370px;
+  background-color: white;
+}
+.left_block p {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+  color:  #fd634e;
+}
+.left_block h2 {
+  padding-top: 15px;
+  font-size: 30px;
+  color: #a2ca28;
+  text-align: center;
+}
+.left_block img {
+  margin-top: 10px;
+  margin-left: 48%;
+}
+.left_block h3 {
+  line-height: 26px;
+  padding-left: 40px;
+  font-size: 14px;
+  font-family: 'avenir-r';
+  color: grey;
+}
+.left_block a {
+  text-decoration: none;
+  text-align: center;
+  color: #a2ca28;
+  font-size: 14px;
+  display: block;
+}
+
+.right_block {
+  height: 370px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/fitnes1.png');
+}
+.textred{
+  color: #fd634e;
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+}
+.bottom_block1{
+  padding: 0 ;
+}
+.bottom_block1 img {
+  width: 100%;
+}
+.bottom_block1 .textwhite img {
+  width: auto;
+}
+.right_block p {
+  position: absolute;
+  color: #fff;
+  right: 6%;
+  bottom: 2%;
+}
+.right_block img {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+.textwhite{
+  position: absolute;
+  color: #fff;
+  bottom: 5%;
+  left: 6%;
+  display:inline-block;
+}
+.textwhite img{
+  position: absolute;
+  left: 104%;
+  bottom: 2%;
+}
+.bottom_block2{
+  background-color: #fff;
+  height: 385px;
+}
+.bottom_block2 h3 {
+  color: #a2ca28;
+  text-align: center;
+   padding-top: 15px;
+   margin: 0;
+}
+.bottom_block2 p{
+  text-align: center;
+  padding-top: 20px;
+  color: #fd634e;
+}
+.bottom_block2 .article p {
+  color: grey;
+  padding-top: 25px;
+}
+.bottom_block2 img {
+  padding-left: 168px;
+  padding-top: 25px;
+}
+.bottom_block2 a{
+  color: #a2ca28;
+  padding-left: 142px;
+  text-decoration: none;
+}
+
+.content3{
+  background-color: #fd634e;
+}
+.chap{
+  padding: 0;
+}
+.on{
+  padding: 0 ;
+}
+.on .rasim img {
+  width: 100%;
+  height: 395px;
+}
+.on  h3 {
+  color: white ;
+  font-size: 14px;  position: absolute;
+    top: 20px;
+    right: 64px;
+}
+.on .nima  img {
+  ;  position: absolute;
+    top: 35px;
+    right: 40px;
+}
+.on p {
+  position: absolute;
+top: 36px;
+left: 75px;
+font-size: 14px;
+color: white;
+}
+.pass_chap{
+  background-color: white;
+  height: 300px;
+}
+.pass_chap p {
+  padding-top: 50px;
+padding-left: 40px;
+color: #fd634e;
+font-size: 16px;
+}
+.pass_chap .pass_text{
+  font-size: 30px;
+padding-left: 40px;
+padding-top: 6px;
+color: #333;
+}
+.pass_chap img{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+.pass_chap h3{
+  font-size: 14px;
+  padding-left: 40px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 5px;
+  margin-bottom: 50px;
+}
+.pass_on{
+  background-color: #a2ca28;
+  height: 300px;
+}
+.pass_on p {
+  color: white;
+  font-size: 36px;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.pass_on h3 {
+  color: #fff;
+  font-size: 14px;
+  padding-left: 60px;
+  margin-top: 10px;
+}
+.rasim1{
+  padding: 0;
+}
+.rasim1 img {
+  width: 100%;
+  height: 350.15px;
+}
+.rasim2{
+  padding: 0;
+}
+.rasim2 img {
+  width: 100%;
+  height: 350.15px;
+}
+.strawbery{
+  background-color: white;
+  height: 300px;
+}
+.strawbery .contin1{
+  padding-left: 30px;
+  padding-top: 45px;
+}
+.strawbery .contin1 p {
+  color: #fd634e;
+}
+.strawbery .contin1 h3 {
+  color: #a2ca28;
+  font-size: 30px;
+}
+.strawbery  img {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.ovakado{
+  background-color: #a2ca28;
+  height: 300px;
+}
+.ovakado .contin2 {
+  padding-top: 45px;
+  padding-left: 25px;
+  color: #fff;
+}
+.ovakado img{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+                             /* -0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0 container4 boshlandi-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0 */
+  .content4{
+    position: relative;
+  }
+  .content4 .container4 img {
+    width: 100%;
+  }
+.content4 .container4 .textmas{
+position: absolute;
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  color: white;
+  top: 50px;
+}
+.content4 .container4 .textmas h1 {
+  font-size: 32px;
+}
+.content4 .container4 .textmas p{
+  font-size: 14px;
+}
+                          /* -0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0 footer boshlandi-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0  */
+/* .ending .endingcontainer{
+  background-color: black;
+} */
+footer{
+  background-color: #0d1119;
+  line-height: 1.8;
+  overflow: hidden;
+}
+.ending .endingcontainer .textlar{
+color: white;
+padding-top: 50px;
+}
+.ending .endingcontainer .textlar h6{
+font-size: 16px;
+}
+.ending .endingcontainer .textlar p {
+  font-size: 14px;
+}
+.ending .endingcontainer .h5andp{
+  padding-top: 50px;
+  color: #fff;
+}
+.ending .endingcontainer .h5andp h5 {
+  font-size: 16px;
+}
+.ending .endingcontainer .third p {
+  color: white;
+  padding-top: 50px;
+}
+.third i{
+  color: #fff;
+  width: 50px;
+height: 50px;
+background-color: grey;
+border-radius: 50%;
+margin: 5px;
+text-align: center;
+font-size: 25px;
+padding-top: 11px;
+}
+.third .fa-facebook:hover{
+  background-color: #23527c;
+}
+.third .fa-twitter:hover{
+  background-color: #337ab7;
+}
+.third .fa-youtube:hover{
+  background-color:#ed3123;
+}
+.third .fa-vk:hover{
+  background-color: #337ab7;
+}
+.input .nimabu form{
+  float: right;
+    padding-right: 120px
+}
+.input .nimabu .nimaaaa {
+  background-color: #a2ca28;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 4px;
+  border-color: #0d1119;
+}
+.input .nimabu .qaysibiri{
+  color: grey;
+  border-radius: 4px;
+  padding: 8px 8px;
+  border-color: #0d1119;
+}
+.input .nimabu .shumi{
+  color: grey;
+  padding: 8px 8px;
+  border-radius: 4px;
+  border-color: #0d1119;
+}
+.maniki {
+  background-color: #0d1119;
+}
+hr{
+  color: #fd634e;
+}
+.maniki .sanikimi p {
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .navbar-nav{
+     float: left;
+   }
+
+.navbar-default .navbar-collapse{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+   .main_menu{
+     padding: 0px;
+   }
+}
+
+@media (max-width: 768px) {
+ .sliderIn .text{
+   margin: -50px;
+ }
+  .sliderIn .text h1{
+font-size: 18px;
+  }
+   .sliderIn .text p {
+     font-size: 14px;
+   }
+   .left_block{
+     padding-top: 30px;
+   }
+}
+              /* -0--0-0-0--0-0-0-0-0--0-0--0--0-0--0-0-0-0--0--0-0-0--0-0-0-0-content1 adapt-0-0-0-0-0--0-00-0--0-0-0--0-0-0--0-0--0-0- */
+@media (max-width: 768px) {
+  .content1 {
+    padding-top: 10px;
+  }
+  .content1 .container1 {
+    text-align: center;
+  }
+    .content1 .container1 .box{
+    padding-top: 25px;
+  }
+  .textred{
+    right: 64px;
+  }
+}
+@media (max-width: 768px)  {
+  .bottom_block2 img{
+    padding-left: 283px;
+    padding-top: 10px;
+  }
+  .bottom_block2 a{
+    padding-left:  258px;
+    text-align: center;
+  }
+  .bottom_block2{
+    padding-top: 55px;
+  }
+  .chap img {
+    width: 100%;
+  }
+  .on .rasim img{
+    width: 100%;
+  }
+  .rasim1 img{
+    height: 350px;
+  }
+  .rasim2 img {
+    width: 100%;
+    height: 400px;
+  }
+  .content4 .container4 .textmas{
+    padding-right: 130px;
+  }
+  .content4 .container4 .textmas h1{
+    font-size: 24px;
+  }
+  .content4 .container4 .textmas p{
+    font-size: 12px;
+  }
+  .content4 .container4 .textmas{
+    padding-top: 10px;
+  }
+  .content4 .container4 .large_picture img{
+    width: 100%;
+  }
+}
